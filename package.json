@@ -1,0 +1,36 @@
+{
+  "name": "pc-part-planner",
+  "version": "0.0.0",
+  "engines": {
+    "node": "12.18.4"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "DEBUG=pc-part-planner:* npm run devstart"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "animejs": "^3.2.1",
+    "async": "^3.2.0",
+    "cookie-parser": "^1.4.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "~2.6.1",
+    "ejs-locals": "^1.0.2",
+    "express": "~4.16.1",
+    "express-validator": "^6.6.1",
+    "http-errors": "~1.6.3",
+    "line-awesome": "^1.3.0",
+    "mongoose": "^5.10.9",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "pluralize": "^8.0.0",
+    "serve-favicon": "^2.5.0",
+    "tablesort": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
